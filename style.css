@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    align-items: center;
+}
+
+header h1{
+    font-size: 4vw;
+    color: #fff
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    border: #fff solid 4px;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.bio, .goals, .contact, .links, .datetime {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bio ul{
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header img {
+        width: 150px;
+    }
+}
